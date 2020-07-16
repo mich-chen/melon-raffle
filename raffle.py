@@ -3,6 +3,7 @@
 from random import choice
 
 
+
 class Customer(object):
     """A customer at Ubermelon."""
 
@@ -42,7 +43,7 @@ def get_customers_from_file(customer_file_path):
 def pick_winner(customers):
     """Choose a random winner from list of customers."""
 
-    chosen_customer = random.choice(customers)
+    chosen_customer = choice(customers)
 
     print("Tell {name} at {email} that they've won".format(
         name=chosen_customer.name,
