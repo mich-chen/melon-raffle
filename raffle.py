@@ -59,3 +59,5 @@ def run_raffle():
 
 if __name__ == "__main__":
     run_raffle()
+
+    #allow raffle to run when run as a script $ ipython3 raffle.py
